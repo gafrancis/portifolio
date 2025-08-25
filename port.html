@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio do Gabriel</title>
+  <!-- Importa o arquivo CSS externo -->
+  <link rel="stylesheet" href="portifolio.css" />
+</head>
+<body>
+  <!-- ========================= CABEÇALHO ========================= -->
+  <header class="site-header">
+    <div class="brand">
+      <!-- Logotipo e título -->
+      <span class="logo" aria-hidden="true">GF</span>
+      <h1>Gabriel Francisco</h1>
+      <p class="subtitle">Portfólio Pessoal</p>
+    </div>
+    <!-- Menu de navegação principal -->
+    <nav aria-label="Navegação principal do site">
+      <ul> 
+        <li><a href="#sobre-mim" class="active">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========================= CONTEÚDO PRINCIPAL ========================= -->
+  <main class="container">
+
+    <!-- SOBRE MIM -->
+    <section id="sobre-mim" class="card">
+      <h2>Sobre mim</h2>
+      <p>
+        Olá! Meu nome é Gabriel Francisco. Sou estudante e este é o meu
+        portfólio.
+      </p>
+      <p>
+        Gosto muito de tecnologia, desde pequeno sempre tive interesse na área e atualmente estou iniciando minha trajetória.
+        Nas horas vagas gosto de programar, escutar música e praticar algum esporte. No momento estou trabalhando (escritório)
+        e estudando.
+      </p>
+    </section>
+
+    <!-- Informações adicionais em grade -->
+    <section class="grid">
+      <article class="item">
+        <h3>🎯 Objetivo</h3>
+        <p>Tenho como objetivo crescer na vida, por meio da programação. Quero poder retribuir tudo a minha mãe, por isso vou fazer de tudo.</p>
+      </article>
+      <article class="item">
+        <h3>💡 Interesses</h3>
+        <p>HTML, CSS, lógica de programação, bancos de dados, Python, Java, back-end.</p>
+      </article>
+      <article class="item">
+        <h3>📍 Local</h3>
+        <p>Brasil, Itararé-SP</p>
+      </article>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="formacao" class="card">
+      <h2>Formação acadêmica</h2>
+      <div class="grid">
+        <article class="item">
+          <h3>Curso Superior (em andamento)</h3>
+          <p>Uninter — Engenharia de Software (2025 — atual)</p>
+        </article>
+        <article class="item">
+          <h3>Ensino Médio</h3>
+          <p>Escola Epaminondas Ferreira Lobo — Conclusão em 2023</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Idiomas -->
+    <section class="card">
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Português — Nativo</li>
+        <li>Inglês — Básico</li>
+      </ul>
+    </section>
+
+    <!-- Cursos e certificados -->
+    <section class="card">
+      <h2>Cursos e certificados</h2>
+      <ul>
+        <li>Curso de Lógica de Programação - em andamento</li>
+        <li>Curso Engenharia de software (Uninter) - em andamento</li>
+      </ul>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="portfolio" class="card">
+      <h2>Projetos</h2>
+      <p class="lead">Abaixo alguns projetos/atividades desenvolvidos no curso.</p>
+      <div class="grid">
+        <article class="item">
+          <h3>Exercício 01</h3>
+          <p>Calculadora.</p>
+          <p><a href="https://github.com/gafrancis/Calculadora-iphone" target="_blank" rel="noopener">Abrir projeto</a></p>
+        </article>
+        <article class="item">
+          <h3>Exercício 02</h3>
+          <p>Em breve...</p>
+        </article>
+        <article class="item">
+          <h3>Exercício 03</h3>
+          <p>Em breve...</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Links para redes sociais -->
+    <section class="card">
+      <h2>Redes</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/gabriel-francisco-0575902b0/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/gafrancis" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="card">
+      <h2>Contato</h2>
+      <p class="lead">Preencha os campos abaixo para entrar em contato.</p>
+
+      <!-- Formulário de contato -->
+      <form aria-label="Formulário de contato">
+        <div>
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome completo" required />
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seu@email.com" required />
+        </div>
+
+        <div>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+        </div>
+
+        <!-- Botão apenas visual, sem envio real -->
+        <button type="button" title="Este botão é apenas visual">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ========================= RODAPÉ ========================= -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Gabriel Francisco — Portfólio acadêmico (HTML + CSS)</p>
+  </footer>
+
+  <!-- Informações alternativas de contato -->
+  <section class="card">
+    <h2>Outras formas de contato</h2>
+    <ul>
+      <li>E-mail: gabrielfrancis0714@gmail.com</li>
+      <li>Telefone: (15) 98142-5251</li>
+      <li>Cidade: Itararé-SP</li>
+    </ul>
+  </section>
+</body>
+</html>
